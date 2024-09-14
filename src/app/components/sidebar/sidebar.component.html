@@ -1,0 +1,9 @@
+<aside
+  class="fixed top-16 w-80 shadow-lg rounded border border-gray-300 min-h-[calc(100vh_-_4rem)]"
+>
+  <ul>
+    <li [routerLink]="'/'" class="p-4 cursor-pointer" routerLinkActive="bg-blue-100" [routerLinkActiveOptions]="{ exact: true }">All</li>
+    <li [routerLink]="'/important'" class="p-4 cursor-pointer" routerLinkActive="bg-blue-100">Important</li>
+    <li [routerLink]="'/completed'" class="p-4 cursor-pointer" routerLinkActive="bg-blue-100">Completed</li>
+  </ul>
+</aside>
