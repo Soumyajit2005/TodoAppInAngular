@@ -1,12 +1,19 @@
 {
   "tasks": [
     {
-      "id": "584c",
-      "title": "make todo app in angular"
+      "id": "2d1e",
+      "title": "write diary",
+      "important": true
     },
     {
-      "id": "9b68",
-      "title": "learn react.js"
+      "id": "d937",
+      "title": "make ppt for sih",
+      "important": true
+    },
+    {
+      "id": "668d",
+      "title": "Make projects in Angular",
+      "completed": true
     }
   ]
 }

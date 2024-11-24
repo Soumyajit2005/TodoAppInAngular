@@ -51,8 +51,8 @@ export class CompletedTasksComponent {
     });
   }
 
-  onDelete(task: any) {
-    this.httpService.deleteTask(task.id).subscribe(() => {
+  onDelete(task:any){
+    this.httpService.deleteTask(task).subscribe(()=>{
       this.getAllTasks();
     });
   }
